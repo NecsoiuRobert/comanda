@@ -184,8 +184,21 @@ box-shadow: 0px 32px 32px -24px rgba(0,0,0,0.75);
 .nav-link{
   color:black;
 }
+.nav-link:hover{
+  color:black;
+  font-weight: 800 !important;
+}
 .active{
   color: black !important;
   background-color: transparent !important;
   font-weight: 800 !important;
+}
+.card-header{
+  padding:10px !important;
+}
+.card-footer{
+  padding:10px !important;  
+}
+.collapse{
+  margin-bottom:30px;
 }

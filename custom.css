@@ -65,6 +65,9 @@ body {
   width: 100%;
   height: 70px;
   text-align: center;
+  -webkit-box-shadow: -3px -14px 49px -24px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px -14px 49px -24px rgba(0,0,0,0.75);
+  box-shadow: -3px -14px 49px -24px rgba(0,0,0,0.75);
 }
 .navbar-item-light{
   color:black !important;
@@ -96,6 +99,9 @@ body {
 .swipenavigation {
   overflow: hidden;
   width: 100%;
+  -webkit-box-shadow: 0px 32px 32px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 32px 32px -24px rgba(0,0,0,0.75);
+box-shadow: 0px 32px 32px -24px rgba(0,0,0,0.75);
 }
 
 .swipenavigation.has-scroll .next,  .swipenavigation.has-scroll .back { display: block; }

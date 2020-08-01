@@ -11,7 +11,7 @@ body {
   user-select: none;
 }
 .fixed-top{
-  top:120px;
+  top:100px;
 }
 .card-footer {
   background: transparent;
@@ -24,7 +24,7 @@ body {
 }
 .disclaimer{
   background-color: black;
-  height: 120px;
+  height: 100px;
   color:#fff;
   position: absolute;
   top: 0px;

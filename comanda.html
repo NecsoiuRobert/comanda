@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Fixed top navbar example · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-fixed/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="custom.css" rel="stylesheet">
+  </head>
+  <body  data-spy="scroll" data-target="#navbar_top" data-offset="222">
+    <div class = "disclaimer">
+      <p style="font-size: 0.7em;">DIGITAL MENU POWERED BY QUISIN.RO</p>
+      <hr style ="width: 100%; color: #ffffff; background-color: #ffffff;">
+      <p style="font-size: 1.5em;">NUMELE RESTAURANTULUI</p>
+    </div> 
+
+<main role="main" class="container" style="margin-top: 150px; margin-bottom: 100px;">
+<div class="container">
+    <h2>Comanda ta</h2>
+    <table class="table table-bordered">
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td colspan="2"><strong>Mojito</strong></td>
+                <td><span><strong>15 lei</strong></span> <a class="btn btn-sm btn-dark btn-circle float-right" href="#" role="button">
+                    <svg width="2.8em" height="2.8em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </a></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td colspan="2"><strong>Mojito</strong></td>
+                <td><span><strong>15 lei</strong></span> <a class="btn btn-sm btn-dark btn-circle float-right" href="#" role="button">
+                    <svg width="2.8em" height="2.8em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </a></td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td colspan="2"><strong>Mojito</strong></td>
+                <td><span><strong>15 lei</strong></span> <a class="btn btn-sm btn-dark btn-circle float-right" href="#" role="button">
+                    <svg width="2.8em" height="2.8em" viewBox="0 0 16 16" class="bi bi-dash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.5 8a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </a></td>
+              </tr>
+              <tr>
+                <td colspan="3"><h4>Total</h4></th>
+                    <td><h5>150 lei</h5></th>
+              </tr>
+        </tbody>
+      </table>
+      <form>
+        <div class="form-group">
+          <label for="numberOfTable">Introduceti numarul mesei</label>
+          <input type="text" class="form-control" id="numberOfTable" placeholder="Exemplu: 32">
+        </div>
+        <div class="form-group">
+            <label for="commentSection">Comentarii</label>
+            <textarea class="form-control" id="commentSection" rows="3"></textarea>
+          </div>   
+          <div style="margin-top:30px;">
+            <button type="submit" class="btn btn-primary" style="min-width: 150px;display: block; margin:auto">Comanda</button>
+            <br>
+            <h4 style="text-align: center;">sau</h4>
+            <br>
+            <button type="submit" class="btn btn-dark "style="min-width: 150px;display: block;margin:auto">Cere nota de plata</button>
+
+          </div>
+
+      </form>
+
+</div>
+</main>
+<footer class="footer mt-auto py-3">
+    <div class="container" style="padding-left:40px; padding-right: 40px;">
+      <span class="navbar-item-light float-left"><a href="./index.html" >Meniu</a></span>
+       <span class="navbar-item-light float-right  active-light"><a href="./comanda.html" >Comanda <div class="numberCircle">30</div></a> </span>
+
+ 
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script>
+      <script>
+  $(window).scroll(function(){  
+     if ($(this).scrollTop() > 30) {
+      $('.fixed-top').css('top', '0px')
+      }else{
+        $('.fixed-top').css('top', '120px')
+         // remove padding top from body
+      }   
+  });
+        
+        </script></body>
+</html>

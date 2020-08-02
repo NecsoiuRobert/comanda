@@ -11,7 +11,7 @@ body {
   user-select: none;
 }
 .fixed-top{
-  top:65px;
+  top:56px;
 }
 .card-footer {
   background: transparent;
@@ -24,12 +24,12 @@ body {
 }
 .disclaimer{
   background-color: black;
-  height: 65px;
+  height: 56px;
   color:#fff;
   position: absolute;
   top: 0px;
   width: 100%;
-  padding: 10px 0px 10px 0px;
+  padding: 4px 0px 4px 0px;
   text-align: center;
 }
 .btn-circle.btn-sm { 
